@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="menu_bg">#3a3a3d</color>
+    <color name="search_color">#CBCBCB</color>
+    <color name="yellow">#FFCC33</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="line_bg">#253350</color>
+    <color name="keyselect">#3B88F0</color>
+</resources>

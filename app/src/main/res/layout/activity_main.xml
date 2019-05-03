@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/keybord_nomal"
+        android:drawableLeft="@mipmap/icon_search"
+        android:enabled="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="输入片名/人名的首字母或全拼"
+        android:lines="1"
+        android:padding="10dp"
+        android:textColor="@color/search_color"
+        android:textColorHint="@color/gray_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <com.td.keybordlib.KeyBordView
+        android:id="@+id/keyBordView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false" />
+
+</LinearLayout>
