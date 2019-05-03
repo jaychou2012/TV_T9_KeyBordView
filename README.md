@@ -1,5 +1,22 @@
 # TV_T9_KeyBordView
 
+库引用方法：
+```
+// 根目录的buidl.gradle里设置
+allprojects {
+		repositories {
+			...
+			maven { url 'https://www.jitpack.io' }
+		}
+	}
+...
+// 项目App目录的buidl.gradle里引用
+dependencies {
+	        implementation 'com.github.jaychou2012:TV_T9_KeyBordView:1.0.0'
+	}
+```
+
+
 效果图：
 
 ![运行效果](https://raw.githubusercontent.com/jaychou2012/TV_T9_KeyBordView/master/Screenshot_1556891580.png)
@@ -9,6 +26,7 @@
 ![运行效果](https://raw.githubusercontent.com/jaychou2012/TV_T9_KeyBordView/master/Screenshot_1556891741.png)
 
 ![运行效果](https://raw.githubusercontent.com/jaychou2012/TV_T9_KeyBordView/master/Screenshot_1556891744.png)
+
 
 使用方法：
 ```java
@@ -84,4 +102,3 @@ public class MainActivity extends Activity implements KeyBordView.KeySelectIml {
     }
 }
 ```
-
